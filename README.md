@@ -1,25 +1,7 @@
-# School DistrictAnalysis
-
-For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
-
-The analysis should contain the following:
-
-Overview of the school district analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+# School District Analysis
 
 ## Overview
-We are tasked with analizing the standardized test scores of a city school district.In order to perform this school district analysis we will create a high-level snapshot of the districts key metrics and an overview of these key metrics broken down by school.
+We are tasked with analizing the standardized test scores of a city school district. In order to perform this school district analysis we will create a high-level snapshot of the districts key metrics and an overview of these key metrics broken down by school.
 We will then break things down further by creating the following tables:
 * Top 5 and bottom 5 performing schools based on the overall passing rate
 * The average math score received by students in each grade level at each school
@@ -28,7 +10,7 @@ We will then break things down further by creating the following tables:
 * School performance based on the school size 
 * School performance based on the type of school
 
-Due to the School Boards concerns of academic dishonesty, Thomas High School's  Ninth grade results are in question. We will exclude Thomas High School ninth grade results in English and Math, while leaving all other data intact. After replacing these scores with NaN's we will repeat our school district analysis and look for any changes.
+Due to the School Board's concerns of academic dishonesty, Thomas High School's ninth grade results are in question. We will exclude Thomas High School ninth grade results in English and Math, while leaving all other data intact. After replacing these scores with NaN's we will repeat our school district analysis and look for any changes.
 
 
 ## Resources
@@ -69,7 +51,7 @@ Original per school summary:
 Per school summary with Thomas High ninth grade results set to NaN:
 
 ![Altered Per School Summary](https://raw.githubusercontent.com/RussellShelley/Imagefiles/main/Per_school_summary_altered.png)
-Comparing these charts we can see small differences:
+Comparing these charts we can see small differences in Thomas High School:
 * Decrease in "Average Math Score" less 0.1
 * Decrease in "% Passing Math" less than 0.1
 * Decrease in "% Overall Passing" 0.3
@@ -140,21 +122,12 @@ The district has both charter and district schools. We compared the results by t
 
 ![Altered results by type](https://raw.githubusercontent.com/RussellShelley/Imagefiles/main/type_summary_altered.png)
 
-* Thomas High nith grade results did change this table.
+* Thomas High ninth grade results did not change this table.
 
 
 ## Summary
-Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 In summary after replacing Thomas High Schools ninth grade scores with NaNs. We can see the following. 
-   *  Per the Distrct Summary. We can see that the overall district's scored suffered without the ninth graders from the high performing Thomas High. "Average Math Score", "% Passing Math", "% Passing Reading" and "% Overall Passing" have all decreased by 0.1%.
-   * Per the school summary we can see that without the ninth grade Thomas High "% overall passing" fell 0.3%. 
+   *  Per the Distrct Summary. We can see that the overall district's scores suffered without the ninth graders from the high performing Thomas High School. "Average Math Score", "% Passing Math", "% Passing Reading" and "% Overall Passing" have all decreased by 0.1%.
+   * Per the school summary we can see that without the ninth grade Thomas High School "% overall passing" fell by 0.3. 
    * Although Thomas High's "% Overall Passing" has decreased by 0.3 it still remains the second highest ranked school.
-   * Looking at the by grade breakdown we can see that Thomas High's ninth grader have high scores in math. They were the schools highest performers, but only by 0.1%. In Reading they are third out of the four grades.  
-
-An overview of the key metrics for each school, presented in a table format
-Top 5 and bottom 5 performing schools, based on the overall passing rate
-The average math score received by students in each grade level at each school
-The average reading score received by students in each grade level at each school
-School performance based on the budget per student
-School performance based on the school size 
-School performance based on the type of school
+   * Looking at the breakdown by grade, we can see that Thomas High's ninth grader have high scores in math. They were the schools highest performers, but only by 0.1%. In Reading they are third out of the four grades. 
