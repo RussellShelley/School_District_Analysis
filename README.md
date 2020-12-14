@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Overview
-We are tasked with analizing the standardized test scores of a city school district. In order to perform this school district analysis we will create a high-level snapshot of the districts key metrics and an overview of these key metrics broken down by school.
+We are tasked with analyzing the standardized test scores of a city school district. In order to perform this school district analysis we will create a high-level snapshot of the districts key metrics and an overview of these key metrics broken down by school.
 We will then break things down further by creating the following tables:
 * Top 5 and bottom 5 performing schools based on the overall passing rate
 * The average math score received by students in each grade level at each school
